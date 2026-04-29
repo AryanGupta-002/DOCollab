@@ -1,0 +1,24 @@
+/* DARK THEME */
+.root {
+    -fx-base: #2B2B2B; /* Dark toolbar */
+}
+
+.desk-scroll {
+    -fx-background: #1E1E1E; /* Very dark desk */
+    -fx-border-color: transparent;
+}
+
+.desk {
+    -fx-background-color: #1E1E1E;
+}
+
+.paper {
+    -fx-background-color: #121212; /* Almost black paper */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 4); /* Harsher shadow */
+}
+
+/* White blinking cursor for dark mode */
+.caret {
+    -fx-stroke: white;
+    -fx-stroke-width: 2px;
+}

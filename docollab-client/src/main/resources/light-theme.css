@@ -1,0 +1,24 @@
+/* LIGHT THEME */
+.root {
+    -fx-base: #F3F3F3; /* Light gray toolbar */
+}
+
+.desk-scroll {
+    -fx-background: #E5E5E5; /* Darker gray desk */
+    -fx-border-color: transparent;
+}
+
+.desk {
+    -fx-background-color: #E5E5E5;
+}
+
+.paper {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 4); /* Page shadow */
+}
+
+/* Black blinking cursor for light mode */
+.caret {
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+}
